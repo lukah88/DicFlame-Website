@@ -1,0 +1,306 @@
+*{
+	margin: 0 ;
+	padding: 0 ; 
+}
+
+body {
+	font-size: 100% ;
+	font-family: sans-serif ;
+	background-color: #171717;
+}
+
+div, section, span, ul, li, a, header{
+	box-sizing: boarder-box ;	
+}
+
+#Home{
+	height: 500px ;
+}
+
+header{
+	width: 100%;
+	display: flex ;
+	justify-content: space-between ;
+	padding: 0px ;
+	align-items: center ;
+	background-color: rgb(255, 230, 0);
+	
+}
+
+.logo{
+	position: absolute ;
+	top: 5px ; 
+	left: 10px ; 
+}
+
+#TaskBar li{
+	list-style: none ;
+	display: inline-block;
+	margin: 25px ; 
+}
+
+#TaskBar li a{
+	color: white ; 
+	text-decoration: none ;
+	font-size: 25px ; 
+}
+
+video{
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 55%;
+	left: 50%;
+}
+
+section{
+	width: 100%;
+	float: left;
+	height: 100vh;
+	position: relative;
+}
+
+
+
+#Meet{
+	height: 300px ; 
+	
+}
+
+#Meeth1{
+	text-align: center ;
+	color:rgb(255, 230, 0) ; 
+	size: 25px ;
+
+}
+
+#MeetDic{
+	position: absolute ;
+	font-size: 25px ;
+	text-align: center ;
+	size: 25px;
+	top: 50px ; 
+	left: 5% ; 
+	width: 87%;
+	height: 220px;
+	padding: 10px;
+	color: white ;
+	border: 5px solid rgb(255, 230, 0) ;
+	border-radius: 5px ;
+	background-color:#171717 ;
+	margin: 0;
+}
+
+
+#Policy{
+	 
+}
+
+#Policyh1{
+	text-align: center ;
+	color:rgb(255, 230, 0) ; 
+}
+
+#pol1{
+	position: absolute ;
+	font-size: 26px ;
+	text-align: center ;
+	size: 25px;
+	top: 50px ; 
+	left: 5% ;
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	color: white ;
+	border: 5px solid rgb(255, 230, 0) ;
+	border-radius: 5px ;
+	background-color:#171717 ;
+	margin: 0;
+}
+
+#pol3{
+	position: absolute ;
+	font-size: 26px ;
+	text-align: center ;
+	top: 295px ; 
+	left: 5% ;
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	color: white ;
+	border: 5px solid rgb(255, 230, 0) ;
+	border-radius: 5px ;
+	background-color:#171717 ;
+	margin: 0;
+}
+
+#pol2{
+	position: absolute ;
+	font-size: 24px ;
+	text-align: center ;
+	size: 15px;
+	top: 50px ; 
+	right: 5% ;
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	color: white ;
+	border: 5px solid rgb(255, 230, 0) ;
+	border-radius: 5px ;
+	background-color:#171717 ;
+	margin: 0;
+}
+
+#pol4{
+	position: absolute ;
+	font-size: 24px ;
+	text-align: center ;
+	size: 15px;
+	top: 295px ; 
+	right: 5% ;
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	color: white ;
+	border: 5px solid rgb(255, 230, 0) ;
+	border-radius: 5px ;
+	background-color:#171717 ;
+	margin: 0;
+}
+
+#Join {
+	height: 375px ; 
+}
+#Joinheader{
+	text-align: center;
+	color: rgb(255, 230, 0) ; 
+}
+
+
+form{
+	position: absolute;
+	left: 5% ; 
+	color: white ;
+}
+
+input[type=text] {
+	border: 3px solid rgb(255, 230, 0);
+	border-radius: 4px ;
+	background-color: #171717 ;
+	color: white ; 
+	width: 250%;
+	height: 45px ; 
+	padding-left: 5px ;
+	box-sizing: border-box ; 
+	left: 10% ; 
+	font-size: 18px ;
+	
+	
+  }
+
+input[type=checkbox]{
+	background-color: rgb(255, 230, 0);
+	border-color: rgb(255, 230, 0)  ; 
+	color: white;
+  }
+
+
+
+ input[type=submit] {
+	background-color: rgb(255, 230, 0);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 125% ; 
+  }
+  
+
+
+
+
+#Donate{
+	height: 150px ; 
+}
+#Donatetext{
+	text-align: center ;
+	color:rgb(255, 230, 0) ; 
+	size: 20px ; 
+}
+
+#donateh1{
+	position: absolute ;
+	top: 50% ; 
+	left: 50% ; 
+	transform: translate(-50%,-50%);
+	color: white ; 
+	background-color:rgb(255, 230, 0) ; 
+	padding: 0.5rem;
+	border: 1px solid rgb(255, 230, 0);
+	border-radius: 5px ;
+	text-decoration: none ;
+}
+
+#DD{
+	height: 250px ;
+}
+
+#Bottom{
+	height: 50px ; 
+	background-color: rgb(255, 230, 0);
+}
+
+#BottomII{
+	height: 50px ; 
+	background-color: rgb(255, 230, 0);
+}
+
+#footertext1{
+	position: absolute ;
+	top: 35% ; 
+	left: 1% ;
+	color: white ; 
+}
+
+#footertext2{
+	position: absolute ;
+	top: 35% ; 
+	right: 1%;
+	color: white ; 
+}
+
+#Footer{
+	list-style-type:none;
+	margin:10px;
+	padding:10px;
+	text-align: center;
+	top: 35% ; 
+}	 
+
+#Footer li{
+	list-style: none ;
+}
+
+#Footer li a{
+	color: white ; 
+	text-decoration: none ;
+	top: 36% ; 
+}
+
+
+#DonationBlurb{
+	position: absolute ;
+	font-size: 35px ;
+	text-align: center ;
+	top: 20px ; 
+	left: 30% ;
+	width: 500px;
+	height: 200px;
+	padding: 10px;
+	color: white ;
+	border: 5px solid rgb(255, 230, 0) ;
+	border-radius: 5px ;
+	background-color:#171717 ;
+	margin: 0;
+}
